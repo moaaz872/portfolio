@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio | Frontend Developer & UI/UX Designer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">Portfo<span>lio.</span></a>
+            
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span>Moaaz</span></h1>
+                <p>I'm a Frontend Developer and UI/UX Designer specialized in creating exceptional web experiences using React and modern web technologies.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/1.jpeg" alt="Profile Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Skills</h2>
+                <p>Here are some of the technologies and skills I specialize in</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-react"></i>
+                    <h3>React Development</h3>
+                    <p>Building interactive and high-performance web applications using React and its ecosystem.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Creating beautiful and intuitive user interfaces focused on exceptional user experience.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript ES6+</h3>
+                    <p>Writing clean and efficient JavaScript code using the latest ECMAScript standards.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS & Preprocessors</h3>
+                    <p>Designing responsive and attractive layouts using CSS3, SASS, and Bootstrap.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Projects</h2>
+                <p>Here are some of the projects I've built using React and various web technologies</p>
+            </div>
+            
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="react">React</button>
+                <button class="filter-btn" data-filter="ui">UI/UX</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-category="react">
+                    <div class="project-image">
+                        <img src="projects/4.png" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Store</h3>
+                        <p>A complete e-commerce solution built with React with integrated payment system.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Bootstrap</span>
+                            <span>Html5</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="ui">
+                    <div class="project-image">
+                        <img src="projects/6.png" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Testimanals App Design</h3>
+                        <p>UI/UX design for a testimanal application with focus on user experience and usability.</p>
+                        <div class="project-tags">
+                            <span>UI/UX</span>
+                            <span>Figma</span>
+                            <span>Prototyping</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="projects/5.png" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Learning Platform</h3>
+                        <p>An interactive learning platform with video courses, quizzes and progress tracking.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Html5</span>
+                            <span>Css</span>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section - Modified -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+                <p>Get in touch with me through the following channels</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's Talk</h3>
+                    <p>Feel free to reach out to me for collaborations or just to say hello</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <h4>Phone</h4>
+                            <a href="tel:+20 1008348267">01008348267</a>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <h4>Email</h4>
+                            <a href="mailto:moaaz.noury@gmail.com">moaaz.noury@gmail.com</a>
+                        </div>
+                        
+                        <!-- <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h4>Location</h4>
+                            <p>New York, USA</p>
+                        </div> -->
+                    </div>
+                    
+                    <div class="social-links">
+                      <a href="https://www.linkedin.com/in/moaz-noury-87b131334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="https://github.com/moaaz872" title="GitHub"><i class="fab fa-github"></i></a>
+                        <!-- <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a> -->
+                      <a href="c:\Users\Lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\5CD27F7996A0D9A67898B385D6B67C438FBBA1AB\transfers\2025-41\WhatsApp Image 2025-10-13 at 12.10.15 PM.jpeg" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Portfo<span>lio.</span></h3>
+                    <p>I'm a Frontend Developer and UI/UX Designer specialized in creating exceptional web experiences using React and modern web technologies.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">React Development</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#">Frontend Development</a></li>
+                        <li><a href="#">SEO Optimization</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Portfolio. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <div class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script>
+        // Menu Toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            menuToggle.querySelector('i').classList.toggle('fa-bars');
+            menuToggle.querySelector('i').classList.toggle('fa-times');
+        });
+        
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                menuToggle.querySelector('i').classList.add('fa-bars');
+                menuToggle.querySelector('i').classList.remove('fa-times');
+            });
+        });
+        
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            const scrollToTop = document.querySelector('.scroll-to-top');
+            
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+                scrollToTop.classList.add('active');
+            } else {
+                header.classList.remove('scrolled');
+                scrollToTop.classList.remove('active');
+            }
+        });
+        
+        // Scroll to top functionality
+        document.querySelector('.scroll-to-top').addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Projects Filter
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+        
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                
+                // Add active class to clicked button
+                btn.classList.add('active');
+                
+                const filter = btn.getAttribute('data-filter');
+                
+                projectCards.forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                    
+                    // If it's a section title, animate the skills/projects after a delay
+                    if (entry.target.classList.contains('section-title')) {
+                        const section = entry.target.closest('section');
+                        const skills = section.querySelectorAll('.skill-card, .project-card');
+                        
+                        skills.forEach((skill, index) => {
+                            setTimeout(() => {
+                                skill.classList.add('animate');
+                            }, index * 150);
+                        });
+                    }
+                    
+                    // Animate contact info
+                    if (entry.target.classList.contains('contact-info')) {
+                        const contactItems = document.querySelectorAll('.contact-item');
+                        
+                        contactItems.forEach((item, index) => {
+                            setTimeout(() => {
+                                item.style.opacity = 1;
+                                item.style.transform = 'translateY(0)';
+                            }, index * 200);
+                        });
+                    }
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements
+        document.querySelectorAll('.section-title, .projects-filter, .skill-card, .project-card, .contact-info').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Initialize contact items for animation
+        document.querySelectorAll('.contact-item').forEach(item => {
+            item.style.opacity = 0;
+            item.style.transform = 'translateY(20px)';
+            item.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        });
+    </script>
+</body>
+</html>
